@@ -1,0 +1,17 @@
+{
+  "apiVersion": 3,
+  "name": "ud/fade-slide-item",
+  "title": "Fade Slide Item",
+  "parent": ["ud/fade-slider-block"],
+  "category": "widgets",
+  "icon": "slides",
+  "description": "Ein einzelner Slide-Container innerhalb des Fade Sliders.",
+  "supports": { "html": false },
+  "attributes": {
+    "duration": { "type": "number", "default": 4000 },
+  "hidden":   { "type": "boolean", "default": false }
+
+  },
+"editorStyle": "file:../build/editor-script.css",
+  "style": "file:../build/frontend-style.css"
+}

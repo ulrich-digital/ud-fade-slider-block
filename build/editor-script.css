@@ -1,0 +1,62 @@
+/*!**********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/editor.scss ***!
+  \**********************************************************************************************************/
+:root {
+  --error-100: #fdecec;
+  --error-200: #f9c8c8;
+  --error-300: #f39797;
+  --error-400: #ed6a6a;
+  --error-500: #e53935;
+  --error-600: #c62828;
+  --error-700: #a31616;
+  --error-800: #6f1111;
+  --error-900: #3c0d0c;
+}
+
+.wp-block-ud-fade-slider-block {
+  background: var(--wp--preset--color--ui-neutral-300, #333) !important;
+  border: 1px solid var(--wp--preset--color--ui-neutral-300, #444) !important;
+  padding: 16px;
+  height: auto;
+  top: 0;
+}
+
+.wp-block-ud-fade-slide-item {
+  background: var(--wp--preset--color--theme-300, #444) !important;
+  border: 1px solid var(--wp--preset--color--theme-300, #555) !important;
+  padding: 8px;
+  box-sizing: border-box;
+  opacity: 1;
+  border-radius: 12px;
+}
+.wp-block-ud-fade-slide-item.wp-block-ud-fade-slide-item {
+  margin-top: 12px;
+}
+.wp-block-ud-fade-slide-item figure {
+  margin-bottom: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.wp-block-ud-fade-slide-item[data-hidden=true] {
+  opacity: 1;
+  position: relative;
+}
+.wp-block-ud-fade-slide-item[data-hidden=true] > * {
+  opacity: 0.4;
+}
+.wp-block-ud-fade-slide-item[data-hidden=true]::after {
+  content: "Dieser Slide ist ausgeblendet";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(163, 22, 22, 0.7333333333);
+  border: 1px solid var(--error-700);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border-radius: 12px;
+}

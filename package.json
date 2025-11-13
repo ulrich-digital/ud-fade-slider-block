@@ -1,0 +1,12 @@
+{
+    "name": "ud-fade-slider-block",
+    "version": "1.0.0",
+    "main": "js/editor.js",
+    "devDependencies": {
+        "@wordpress/scripts": "^27.0.0"
+    },
+    "scripts": {
+        "build": "webpack --mode production",
+        "dev": "webpack --watch --mode development"
+    }
+}

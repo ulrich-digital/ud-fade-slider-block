@@ -1,0 +1,35 @@
+{
+    "apiVersion": 3,
+    "name": "ud/fade-slider-block",
+    "title": "Fade Slider",
+    "category": "widgets",
+    "icon": "slides",
+    "description": "Container für mehrere Fade-Slides.",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "autoplay": {
+            "type": "boolean",
+            "default": true
+        },
+        "loop": {
+            "type": "boolean",
+            "default": true
+        },
+        "transitionSpeed": {
+            "type": "number",
+            "default": 800
+        },
+        "pauseOnHover": {
+            "type": "boolean",
+            "default": true
+        },
+        "startIndex": {
+            "type": "number",
+            "default": 0
+        }
+    },
+"editorStyle": "file:../build/editor-script.css",
+    "style": "file:../build/frontend-script.css"
+}
