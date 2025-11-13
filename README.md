@@ -5,12 +5,13 @@ Die Slides können beliebige Inhalte enthalten (Bilder, Text, Gruppen, Cover-Bl�
 
 ## Funktionen
 
--   Automatisch überblendender Slider ohne Navigationselemente
+-   Automatisch überblendender Slider
 -   Enthält einen übergeordneten **Fade Slider**-Block und mehrere **Fade Slide Items**
--   Jedes Slide kann beliebige Gutenberg-Blöcke enthalten (nicht nur Bilder)
+-   Jedes Slide kann beliebige Inhalte enthalten
 -   **Fade-Geschwindigkeit** im Slider einstellbar
 -   **Anzeigedauer** individuell pro Slide festlegbar
 -   Optionales Autoplay, Loop und Pausieren bei Hover
+-   Einzelne Slides können komplett ausgeblendet werden, ohne dass sie entfernt werden müssen
 
 
 ## Screenshots
