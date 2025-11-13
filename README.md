@@ -31,8 +31,6 @@ Die Slides können beliebige Inhalte enthalten (Bilder, Text, Gruppen, Cover-Bl�
 
 Container für mehrere Slides. Steuert den Gesamtablauf und die Animation.
 
-**Einstellungen:**
-
 -   **Autoplay aktivieren** – startet die automatische Wiedergabe
 -   **Endlosschleife (Loop)** – wiederholt die Slides unbegrenzt
 -   **Bei Hover pausieren** – stoppt die Wiedergabe, solange der Mauszeiger über dem Slider ist
@@ -41,8 +39,6 @@ Container für mehrere Slides. Steuert den Gesamtablauf und die Animation.
 ### Child-Block: Fade Slide Item
 
 Ein einzelner Slide innerhalb des Sliders. Kann beliebige Gutenberg-Blöcke enthalten.
-
-**Einstellungen:**
 
 -   **Anzeigedauer (ms)** – wie lange der Slide sichtbar bleibt, bevor der nächste eingeblendet wird
 -   **Slide ausblenden** – blendet den Slide komplett aus (z. B. zur temporären Deaktivierung)
