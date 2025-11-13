@@ -3,7 +3,7 @@
 Ein flexibler WordPress-Block zur Erstellung automatisch überblendender Slider.
 Die Slides können beliebige Inhalte enthalten (Bilder, Text, Gruppen, Cover-Blöcke etc.).
 
-## Kurzbeschreibung
+## Funktionen
 
 -   Automatisch überblendender Slider ohne Navigationselemente
 -   Enthält einen übergeordneten **Fade Slider**-Block und mehrere **Fade Slide Items**
@@ -11,6 +11,15 @@ Die Slides können beliebige Inhalte enthalten (Bilder, Text, Gruppen, Cover-Bl�
 -   **Fade-Geschwindigkeit** im Slider einstellbar
 -   **Anzeigedauer** individuell pro Slide festlegbar
 -   Optionales Autoplay, Loop und Pausieren bei Hover
+
+
+## Screenshots
+
+![Frontend](./assets/ud-fade-animiert.webp)
+*Frontend-Ansicht.*
+
+![Editor UI](./assets/img/editor.png)
+*Editor-Ansicht.*
 
 
 ## Aufbau
