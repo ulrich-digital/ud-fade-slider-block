@@ -28,7 +28,7 @@ Ideal für ruhige Hero-Bereiche oder Stimmungsbilder ohne sichtbare Navigationse
 ## Screenshots
 
 ## Beispiel
-
+```html
 <!-- Parent -->
 <ud-fade-slider-block>
 	<!-- Child Slides -->
@@ -39,6 +39,8 @@ Ideal für ruhige Hero-Bereiche oder Stimmungsbilder ohne sichtbare Navigationse
 		<img src="bild2.jpg" alt="Beispiel 2" />
 	</ud-fade-slide-item>
 </ud-fade-slider-block>
+```
+
 
 ## Anforderungen
 
