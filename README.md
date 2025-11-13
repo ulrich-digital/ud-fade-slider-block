@@ -26,9 +26,7 @@ Die Slides können beliebige Inhalte enthalten (Bilder, Text, Gruppen, Cover-Bl�
 
 ## Aufbau
 
-### Parent-Block
-
-**Fade Slider** (`ud/fade-slider-block`)
+### Parent-Block: Fade Slider
 
 Container für mehrere Slides. Steuert den Gesamtablauf und die Animation.
 
@@ -39,9 +37,7 @@ Container für mehrere Slides. Steuert den Gesamtablauf und die Animation.
 -   **Bei Hover pausieren** – stoppt die Wiedergabe, solange der Mauszeiger über dem Slider ist
 -   **Übergangszeit (ms)** – Dauer der Fade-Animation zwischen zwei Slides
 
-### Child-Block
-
-**Fade Slide Item** (`ud/fade-slide-item`)
+### Child-Block: Fade Slide Item
 
 Ein einzelner Slide innerhalb des Sliders. Kann beliebige Gutenberg-Blöcke enthalten.
 
