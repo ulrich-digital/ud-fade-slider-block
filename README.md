@@ -1,4 +1,4 @@
-# UD Fade Slider
+# UD Block: Fade Slider
 
 Ein flexibler WordPress-Block zur Erstellung automatisch überblendender Slider.
 Die Slides können beliebige Inhalte enthalten (Bilder, Text, Gruppen, Cover-Blöcke etc.).
