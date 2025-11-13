@@ -48,26 +48,12 @@ Ein einzelner Slide innerhalb des Sliders. Kann beliebige Gutenberg-Blöcke enth
 
 
 
-## Verwendung
-
-1. Füge den Block **„Fade Slider“** in eine Seite oder Vorlage ein.
-2. Ergänze darin mehrere **„Fade Slide Items“**.
-3. Lege pro Slide beliebige Inhalte an (z. B. Bilder, Überschriften, Texte, Buttons, Gruppen).
-4. Stelle im rechten Seitenpanel die gewünschten Zeiten und Effekte ein.
-5. Speichern – im Frontend wird der Slider automatisch mit Fade-Effekt abgespielt.
-
-> Der UD Fade Slider ist bewusst minimalistisch gehalten:
-> keine Pfeile, keine Dots, keine manuelle Steuerung.
-
-
-
 ## Technische Details
 
 -   Fade-Wechsel basiert auf CSS-Transitions (`opacity`)
 -   Steuerung durch leichtes Vanilla-JS-Skript
 -   Reagiert auf Editor-Attribute (`autoplay`, `loop`, `pauseOnHover`, `duration`, `fadeTime`)
 -   Responsiv und FSE-kompatibel
--   Kompatibel mit Lazy-Loading und Cover-Hintergründen
 
 
 ## Installation
