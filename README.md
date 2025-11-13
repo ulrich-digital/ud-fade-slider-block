@@ -12,6 +12,7 @@ Die Slides k√∂nnen beliebige Inhalte enthalten (Bilder, Text, Gruppen, Cover-Bl√
 -   **Anzeigedauer** individuell pro Slide festlegbar
 -   Optionales Autoplay, Loop und Pausieren bei Hover
 
+
 ## Aufbau
 
 ### Parent-Block
