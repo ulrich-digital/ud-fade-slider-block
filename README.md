@@ -18,9 +18,11 @@ Die Slides können beliebige Inhalte enthalten (Bilder, Text, Gruppen, Cover-Bl�
 ![Frontend](./assets/ud-fade-animiert.webp)
 *Frontend-Ansicht.*
 
-![Editor UI](./assets/img/editor.png)
+![Editor UI](./assets/ud-fade-slide_editor.webp)
 *Editor-Ansicht.*
 
+![Editor UI](./assets/ud-fade-editor_einstellungen.webp)
+*Einstellungen für den gesamten Slider und die einzelnen Slides.*
 
 ## Aufbau
 
