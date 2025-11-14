@@ -80,5 +80,5 @@ Alle Rechte vorbehalten. Dieses Plugin ist urheberrechtlich geschützt und darf 
 
 ## Bildnachweise
 
-Fotos von [Louis Hansel](https://unsplash.com/de/@louishanselgit)  
+Fotos von [Louis Hansel](https://unsplash.com/de/@louishansel)  
 und [Henrique Felix](https://unsplash.com/de/@henriquefelix) auf [Unsplash](https://unsplash.com)
