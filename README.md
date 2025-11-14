@@ -19,10 +19,9 @@ Die Slides k√∂nnen beliebige Inhalte enthalten (Bilder, Text, Gruppen, Cover-Bl√
 ![Frontend](./assets/ud-fade-animiert.webp)
 *Frontend-Ansicht.*
 
-![Frontend](./assets/ud-fade-animiert.mp4)
 [![Demo ansehen](./assets/ud-fade-animiert.webp)](https://github.com/ulrich-digital/ud-fade-slider-block/assets/ud-fade-animiert.mp4)
 
-*Frontend-Ansicht.*
+*Demo-Ansicht.*
 
 ![Editor UI](./assets/ud-fade-slide_editor.webp)
 *Editor-Ansicht.*
