@@ -15,11 +15,12 @@ Die Slides kÃ¶nnen beliebige Inhalte enthalten (Bilder, Text, Gruppen, Cover-BlÃ
 
 
 ## Screenshots
+[![Demo ansehen](./assets/preview.png)](./assets/ud-fade-animiert.mp4)
 
 ![Frontend](./assets/ud-fade-animiert.webp)
 *Frontend-Ansicht.*
 
-[![Demo ansehen](./assets/ud-fade-animiert.webp)](https://github.com/ulrich-digital/ud-fade-slider-block/assets/ud-fade-animiert.mp4)
+
 
 *Demo-Ansicht.*
 
