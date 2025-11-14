@@ -62,15 +62,6 @@ Ein einzelner Slide innerhalb des Sliders. Kann beliebige Gutenberg-Blöcke enth
 
 
 
-
-
-
-
-
-
-
-
-
 ## Anforderungen
 
 -   WordPress 6.7 oder neuer
@@ -85,3 +76,9 @@ Ein einzelner Slide innerhalb des Sliders. Kann beliebige Gutenberg-Blöcke enth
 ## Lizenz
 
 Alle Rechte vorbehalten. Dieses Plugin ist urheberrechtlich geschützt und darf ohne ausdrückliche schriftliche Genehmigung der **ulrich.digital gmbh** weder kopiert, verbreitet, verändert noch weiterverwendet werden.
+
+
+## Bildnachweise
+
+Fotos von [Louis Hansel](https://unsplash.com/de/@louishanselgit)  
+und [Henrique Felix](https://unsplash.com/de/@henriquefelix) auf [Unsplash](https://unsplash.com)
