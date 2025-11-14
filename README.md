@@ -15,14 +15,9 @@ Die Slides k√∂nnen beliebige Inhalte enthalten (Bilder, Text, Gruppen, Cover-Bl√
 
 
 ## Screenshots
-[![Demo ansehen](./assets/preview.png)](./assets/ud-fade-animiert.mp4)
 
 ![Frontend](./assets/ud-fade-animiert.webp)
 *Frontend-Ansicht.*
-
-
-
-*Demo-Ansicht.*
 
 ![Editor UI](./assets/ud-fade-slide_editor.webp)
 *Editor-Ansicht.*
