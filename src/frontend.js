@@ -91,7 +91,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		let paused = false;
 
 		// Anfangszustand
-		// Anfangszustand
 		slides.forEach((s, i) => {
 			s.classList.toggle("is-active", i === currentIndex);
 			s.style.transition = `opacity ${transitionSpeed}ms ease-in-out`;
@@ -144,10 +143,9 @@ document.addEventListener("DOMContentLoaded", () => {
 			clearTimeout(timer);
 
 			const active = slides[currentIndex];
-			const slideDuration = parseInt(
-				active.dataset.duration || "4000",
-				10
-			);
+// Dauer wird nun in Sekunden gespeichert → in ms umrechnen
+const slideDuration = (parseInt(active.dataset.duration || "4", 10) * 1000);
+
 
 			timer = setTimeout(() => {
 				showNextSlide();

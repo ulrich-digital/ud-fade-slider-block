@@ -17,10 +17,10 @@ export default function Edit({ attributes, setAttributes }) {
 			<InspectorControls>
 				<PanelBody title="Slide-Einstellungen">
 					<RangeControl
-						label="Anzeigedauer (ms)"
-						min={1000}
-						max={10000}
-						step={500}
+						label="Anzeigedauer (Sekunden)"
+						min={1}
+						max={300}
+						step={1}
 						value={duration}
 						onChange={(value) => setAttributes({ duration: value })}
 						__next40pxDefaultSize={true}
