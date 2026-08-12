@@ -1,62 +1,55 @@
 # UD Block: Fade Slider
 
-Ein flexibler WordPress-Block zur Erstellung automatisch überblendender Slider.
-Die Slides können beliebige Inhalte enthalten (Bilder, Text, Gruppen, Cover-Blöcke etc.).
+Ein Gutenberg-Block für automatisch überblendende Inhaltsfolgen. Jede Slide wird mit beliebigen Gutenberg-Blöcken aufgebaut und kann dadurch Bilder, Texte, Gruppen, Cover-Blöcke und weitere Inhalte aufnehmen.
 
 ## Funktionen
 
--   Automatisch überblendender Slider
--   Enthält einen übergeordneten **Fade Slider**-Block und mehrere **Fade Slide Items**
--   Jedes Slide kann beliebige Inhalte enthalten
--   **Fade-Geschwindigkeit** im Slider einstellbar
--   **Anzeigedauer** individuell pro Slide festlegbar
--   Optionales Autoplay, Loop und Pausieren bei Hover
--   Einzelne Slides können komplett ausgeblendet werden, ohne dass sie entfernt werden müssen
+- Automatisch überblendende Folge frei gestaltbarer Inhalte
+- Übergeordneter **Fade Slider** mit mehreren untergeordneten **Fade Slides**
+- Beliebige Gutenberg-Blöcke innerhalb jeder Slide
+- Zentrale Steuerung von Übergang, automatischer Wiedergabe und Endlosschleife
+- Individuelle Anzeigedauer pro Slide
+- Einstellung zum Pausieren bei Hover
+- Temporäres Ausblenden einzelner Slides
 
 
 ## Screenshots
 
-![Frontend](./assets/ud-fade-animiert.webp)
-*Frontend-Ansicht.*
+![WordPress-Editor mit einem Fade Slider aus drei frei gestalteten Slides](./assets/ud-fade-slider-editor.webp)
 
-![Editor UI](./assets/ud-fade-slide_editor.webp)
-*Editor-Ansicht.*
-
-![Editor UI](./assets/ud-fade-editor_einstellungen.webp)
-*Einstellungen für den gesamten Slider und die einzelnen Slides.*
+*Die Editoransicht zeigt drei eigenständig aufgebaute Slides sowie die zentralen Einstellungen für Ablauf und Übergang.*
 
 ## Aufbau
 
 ### Parent-Block: Fade Slider
 
-Container für mehrere Slides. Steuert den Gesamtablauf und die Animation.
+Container für mehrere Slides. Er steuert den Ablauf und die weiche Überblendung der gesamten Inhaltsfolge.
 
--   **Autoplay aktivieren** – startet die automatische Wiedergabe
--   **Endlosschleife (Loop)** – wiederholt die Slides unbegrenzt
--   **Bei Hover pausieren** – stoppt die Wiedergabe, solange der Mauszeiger über dem Slider ist
--   **Übergangszeit (ms)** – Dauer der Fade-Animation zwischen zwei Slides
+- **Übergangsdauer** – bestimmt die Dauer der weichen Überblendung
+- **Automatisch abspielen** – startet die Inhaltsfolge selbstständig
+- **Endlosschleife** – beginnt nach der letzten Slide wieder von vorne
+- **Bei Hover pausieren** – steuert die vorgesehene Unterbrechung bei Mauszeigerkontakt
 
 ### Child-Block: Fade Slide Item
 
-Ein einzelner Slide innerhalb des Sliders. Kann beliebige Gutenberg-Blöcke enthalten.
+Eine einzelne Inhaltsfläche innerhalb des Sliders. Sie kann beliebige Gutenberg-Blöcke enthalten.
 
--   **Anzeigedauer (ms)** – wie lange der Slide sichtbar bleibt, bevor der nächste eingeblendet wird
--   **Slide ausblenden** – blendet den Slide komplett aus (z. B. zur temporären Deaktivierung)
+- **Anzeigedauer** – legt in Sekunden fest, wie lange die Slide sichtbar bleibt
+- **Slide ausblenden** – deaktiviert eine vorbereitete Slide temporär, während ihr Inhalt erhalten bleibt
 
 
 
 ## Technische Details
 
--   Fade-Wechsel basiert auf CSS-Transitions (`opacity`)
--   Steuerung durch leichtes Vanilla-JS-Skript
--   Reagiert auf Editor-Attribute (`autoplay`, `loop`, `pauseOnHover`, `duration`, `fadeTime`)
--   Responsiv und FSE-kompatibel
+- Fade-Wechsel auf Basis von CSS-Transitions (`opacity`)
+- Steuerung durch JavaScript ohne zusätzliches Slider-Framework
+- Verschachtelte Blockstruktur mit einem übergeordneten Slider und frei aufgebauten Slides
+- Responsiv und mit dem WordPress Site Editor kompatibel
 
 
 ## Installation
 
-1. Ordner `ud-fade-slider-block` in
-   `/wp-content/plugins/` kopieren
+1. Ordner `ud-fade-slider-block` nach `/wp-content/plugins/` kopieren
 2. Im Backend unter **Plugins → Installierte Plugins** aktivieren
 3. Den Block im Editor einfügen und konfigurieren
 
@@ -64,10 +57,8 @@ Ein einzelner Slide innerhalb des Sliders. Kann beliebige Gutenberg-Blöcke enth
 
 ## Anforderungen
 
--   WordPress 6.7 oder neuer
--   PHP 8.0+
--   Aktives Theme: `ulrichdigital_block_theme`
--   Ably-API-Key für Echtzeit-Übertragung
+- WordPress 6.7 oder neuer
+- PHP 8.0+
 
 ## Autor
 
@@ -76,7 +67,6 @@ Ein einzelner Slide innerhalb des Sliders. Kann beliebige Gutenberg-Blöcke enth
 ## Lizenz
 
 Alle Rechte vorbehalten. Dieses Plugin ist urheberrechtlich geschützt und darf ohne ausdrückliche schriftliche Genehmigung der **ulrich.digital gmbh** weder kopiert, verbreitet, verändert noch weiterverwendet werden.
-
 
 ## Bildnachweise
 
