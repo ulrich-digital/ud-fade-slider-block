@@ -67,7 +67,3 @@ Eine einzelne Inhaltsfläche innerhalb des Sliders. Sie kann beliebige Gutenberg
 ## Lizenz
 
 Alle Rechte vorbehalten. Dieses Plugin ist urheberrechtlich geschützt und darf ohne ausdrückliche schriftliche Genehmigung der **ulrich.digital gmbh** weder kopiert, verbreitet, verändert noch weiterverwendet werden.
-
-## Bildnachweise
-
-[Louis Hansel](https://unsplash.com/de/@louishansel) und [Henrique Felix](https://unsplash.com/de/@henriquefelix)
